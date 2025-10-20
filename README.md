@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 2 <br> ARRAY </h1>
+# <h1 align="center">Laporan Praktikum Modul 5 <br> Singly Linked List </h1>
 <p align="center">Alvinsa Hafizh Arkaan - 103112430179</p>
 
 ## Dasar Teori
