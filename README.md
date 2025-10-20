@@ -642,7 +642,7 @@ int main() {
 
 Program di atas merupakan implementasi struktur data antrian (queue) menggunakan array statis dalam bahasa C++, yang berfungsi untuk mensimulasikan sistem antrian pembeli di sebuah tempat pemesanan. Setiap data antrian disimpan dalam struktur Pembeli yang memiliki dua atribut, yaitu nama dan pesanan, sementara posisi antrian dikelola menggunakan dua variabel indeks, yaitu idxDepan dan idxBelakang. Program menyediakan berbagai fungsi, antara lain masukkanAntrian() untuk menambahkan pembeli baru ke antrian (enqueue), keluarkanAntrian() untuk melayani dan menghapus pembeli di posisi terdepan (dequeue), lihatAntrian() untuk menampilkan seluruh data pembeli dalam antrian, serta cariAntrian() untuk mencari posisi dan detail pembeli berdasarkan nama. Program juga memanfaatkan fungsi isKosong() untuk memeriksa apakah antrian kosong dan isPenuh() untuk mengecek apakah kapasitas maksimum telah tercapai. Melalui menu interaktif pada fungsi main(), pengguna dapat memilih berbagai operasi antrian hingga keluar dari program. Secara keseluruhan, program ini menggambarkan konsep dasar queue dengan metode FIFO (First In, First Out) menggunakan array statis, lengkap dengan logika penambahan, penghapusan, pencarian, dan penanganan kondisi antrian penuh atau kosong.
 > Output
-> ![Screenshot bagian x](outputmodul2/Screenshot_unguided1.png)
+> ![Screenshot bagian x](unguided1.png)
 
 
 
@@ -889,4 +889,4 @@ int main() {
 Program di atas merupakan implementasi struktur data Single Linked List dalam bahasa C++ yang digunakan untuk mengelola data buku secara dinamis. Setiap data buku disimpan dalam node bertipe struct Buku yang berisi atribut ISBN, judul, dan penulis, serta pointer next untuk menghubungkan node satu dengan yang lain. Program menyediakan berbagai fungsi seperti tambahBuku() untuk menambah data di akhir list, tampilBuku() untuk menampilkan seluruh data buku, hapusBuku() untuk menghapus buku berdasarkan ISBN, perbaruiBuku() untuk memperbarui data buku, serta cariByISBN(), cariByJudul(), dan cariByPenulis() untuk melakukan pencarian berdasarkan kriteria tertentu. Menu interaktif pada fungsi main() memungkinkan pengguna memilih operasi yang diinginkan melalui input angka, dan program akan terus berjalan menggunakan perulangan do-while hingga pengguna memilih keluar. Secara keseluruhan, program ini menggambarkan penerapan konsep dasar linked list, pointer, dan manajemen memori dinamis dalam mengelola kumpulan data secara fleksibel tanpa batasan ukuran seperti pada array.
 
 > Output
-> ![Screenshot bagian x](outputmodul2/Screenshot_unguided1.png)
+> ![Screenshot bagian x](unguided1.png)
